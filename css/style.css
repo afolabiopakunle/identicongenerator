@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+  line-height: 1;
+  color: darkkhaki;
+}
+
+input {
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 10px auto;
+  border-color: darkkhaki;
+  border-radius: 5px;
+  color: darkkhaki;
+  font-style: italic;
+}
+
+div.display {
+  text-align: center;
+}

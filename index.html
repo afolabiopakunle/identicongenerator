@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat|Sacramento&display=swap"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identicon Generator</title>
+</head>
+
+<body>
+  <div id="root">
+    <div>
+      <h1 style="font-family: Sacramento;">Identicon Icon Generator</h1>
+      <input placeholder="Enter some texts..." type="text" v-on:input="onInput" autofocus>
+    </div>
+    <div class="display">
+      <p v-html="identicon"></p>
+    </div>
+  </div>
+  <script src="./js/vue.js"></script>
+  <script src="./js/jdenticon.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
